@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
 int n,m,sum=0,p,i;
@@ -15,4 +16,5 @@ printf("armstrong number");
 else
 printf("not armstrong number");
 return 0;
+  getch();
 }
