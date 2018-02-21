@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
 int n,m,sum=0,p,i;
@@ -12,4 +13,5 @@ n=n/10;
 }
 printf("%d",sum);
 return 0;
+getch();
 }
